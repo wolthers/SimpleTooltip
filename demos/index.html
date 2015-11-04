@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yo dawg, I heard you like tooltipz</title>
+	<link rel="stylesheet" href="../dist/simpletooltip.css" />
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<main>
+	<h1>
+		Tooltips as simple as they get
+	</h1>
+	<p>
+		Hover over <span class="tooltipTrigger" data-tooltip-label="Hello.">me</span> to see how it looks.
+	</p>
+	<p>
+		You can specify the position by setting <code>@data-tooltip-position</code> to
+		<span class="tooltipTrigger" data-tooltip-label="House Stark: Winter is coming">north</span>,
+		<span class="tooltipTrigger" data-tooltip-label="House Targaryen: Fire and Blood" data-tooltip-position="east">east</span>,
+		<span class="tooltipTrigger" data-tooltip-label="House Martell: Unbowed, unbent, unbroken" data-tooltip-position="south">south</span>
+		or
+		<span class="tooltipTrigger" data-tooltip-label="House Lannister: Hear Me Roar" data-tooltip-position="west">west</span>.
+		Defaults to <code>north</code> if omitted.
+	</p>
+	<p>
+		Set <code>@data-tooltip-decorator</code>, if you need a hook on a specific <span class="tooltipTrigger" data-tooltip-label="I'm a special
+		unicorn
+		with
+		line-breaks." data-tooltip-decorator="abracadabra">tooltip</span>.
+	</p>
+	<p>
+		No <code>width</code> is set by default, but you can set <code>white-space</code> on <code>.tooltip</code> to whatever you like or set an explicit width through a parent selector. That's not up for me to decide. 👼
+	</p>
+</main>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../src/SimpleTooltip.js"></script>
+<script>
+$("body").simpleTooltip({
+    delegateSelector: ".tooltipTrigger"
+});
+</script>
+</body>
+</html>

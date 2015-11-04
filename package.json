@@ -1,0 +1,22 @@
+{
+  "name": "simpletooltip",
+  "description": "simple tooltip plugin",
+  "author": "Michael Wolthers Nielsen @michaelwolthers",
+  "contributors": [],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolthers/SimpleTooltip.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wolthers/SimpleTooltip/blob/master/LICENSE.txt"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sass": "^2.1.0"
+  }
+}
