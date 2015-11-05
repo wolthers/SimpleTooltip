@@ -1,0 +1,47 @@
+/* Demo styles */
+body {
+	font: 20px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	padding: 2em 1em;
+}
+h1 {
+	line-height: 1.2;
+}
+main {
+	max-width: 32em;
+	margin-left: auto;
+	margin-right: auto;
+}
+code {
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: #eee;
+	border-radius: 3px;
+}
+.tooltipTrigger {
+	cursor: default;
+	border-bottom: 1px dotted #999;
+}
+.tooltip.abracadabra {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-shadow: 0 0 1px black;
+    white-space: nowrap;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 48px;
+    text-align: center;
+    width: 66px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.tooltip.abracadabra:after {
+    bottom: -46px;
+    margin-left: -46px;
+    border-left-width: 46px;
+    border-right-width: 46px;
+    border-top-width: 46px;
+}
