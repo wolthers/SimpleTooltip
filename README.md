@@ -1,4 +1,4 @@
-# SimpleTooltip
+# Tooltips as simple as they get
 
-<a href="">Check out the demo</a>
+<a href="http://wolthers.github.io/SimpleTooltip/demos/index.html">Check out the demo</a>
 
